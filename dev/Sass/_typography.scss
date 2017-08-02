@@ -1,0 +1,78 @@
+//
+//Typography
+//
+html{
+  font-size: 10px;
+}
+body{
+  color: $dark;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Merriweather";
+}
+h1{
+  font-size: 4.8rem;
+}
+h2{
+  font-size: 3.6rem;
+}
+h3{
+  font-size: 2.4rem;
+}
+h4{
+  font-size: 2.2rem;
+}
+h5{
+  font-size: 1.4rem;
+}
+h6{
+  font-size: 1.4rem;
+}
+p{
+  font: {
+    family: "Open Sans";
+    size: 1.8rem;
+  }
+}
+q{
+  font: {
+    family: "Merriweather";
+    size: 2.2rem;
+  }
+}
+.small{
+  font: {
+    family: "Merriweather";
+    size: 1.6rem;
+  }
+}
+a {
+  font-family: "Open Sans";
+  font-size: 1.8rem;
+  color: $green;
+  //text-decoration: underline;
+
+  &:hover,&:focus {
+    text-decoration: none;
+    color: $green;
+    }
+}
+.navbar-nav > li > a {
+      font-size: 1.2rem;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+      background-color: transparent;
+    }
+.logo{
+  font: {
+    size: 2.4rem;
+    weight:bold;
+  }
+}
+.navbar{
+  a{
+    family: "Merriweather Black";
+    color: $gray;
+    text-decoration: none;
+  }
+}

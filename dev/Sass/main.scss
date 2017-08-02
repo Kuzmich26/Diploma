@@ -1,1 +1,47 @@
 @import "core";
+.firstImpr {
+  background: url("../img/BG.jpg") no-repeat center center;
+  background-size: cover;
+  max-width: $mainContainer;
+  padding-left: $containerHorIndent;
+  padding-right: $containerHorIndent;
+  margin: 0 auto;
+}
+.job{
+  color: $green;
+  padding-top: 50px;
+  p{
+  font-size: 1.2rem;
+ }
+}
+.moto{
+  color: $gray;
+line-height: 1.4;
+    margin-top: 5.1rem;
+margin-bottom: 6.1rem;
+
+}
+.btn{
+  font-size: 1.4rem;
+  color: white;
+  background: transparent;
+  padding: 1.5rem 3rem;
+  border: 2px solid white;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 1.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  &:hover,&:focus {
+    background-color: $yellow;
+  }
+}
+.first-action{
+  padding-top: 10.1rem;
+  padding-bottom: 14.1rem;
+  margin: 0 auto;
+  text-align: center;
+}
