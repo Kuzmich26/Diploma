@@ -1,11 +1,15 @@
 @import "core";
-.firstImpr {
-  background: url("../img/BG.jpg") no-repeat center center;
-  background-size: cover;
+.box{
   max-width: $mainContainer;
   padding-left: $containerHorIndent;
   padding-right: $containerHorIndent;
   margin: 0 auto;
+}
+.firstImpr {
+  background: url("../img/BG.jpg") no-repeat center center;
+  background-size: cover;
+
+
 }
 .job{
   color: $green;
@@ -21,27 +25,27 @@ line-height: 1.4;
 margin-bottom: 6.1rem;
 
 }
-.btn{
-  font-size: 1.4rem;
-  color: white;
-  background: transparent;
-  padding: 1.5rem 3rem;
-  border: 2px solid white;
-  width: auto;
-  border-radius: 4rem;
-  margin: 0 1.5rem;
-  margin-bottom: 1rem;
-  display: inline-block;
-  font-weight: bold;
-  cursor: pointer;
-  text-align: center;
-  &:hover,&:focus {
-    background-color: $yellow;
-  }
-}
 .first-action{
   padding-top: 10.1rem;
   padding-bottom: 14.1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.services{
+  h2{
+    margin-top: 10rem;
+    margin-bottom: 3.4rem;
+  }
+  h3{
+    margin: 3.6rem 0;
+  }
+  .ad-moto{
+      color: $green;
+      font-size: 1.2rem;
+      margin-bottom: 10rem;
+  }
+}
+.learnMore{
   margin: 0 auto;
   text-align: center;
 }

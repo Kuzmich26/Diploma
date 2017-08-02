@@ -1,0 +1,38 @@
+.btn{
+  font-size: 1.4rem;
+  color: white;
+  background: transparent;
+  padding: 1.5rem 3rem;
+  border: 2px solid white;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 1.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  &:hover,&:focus {
+    background-color: $yellow;
+  }
+}
+.greenButton{
+  font-size: 1.4rem;
+  color: $green;
+  background: transparent;
+  padding: 1.5rem 3rem;
+  border: 2px solid $green;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 6rem;
+  margin-top: 5rem;
+  margin-bottom: 9.1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  &:hover,&:focus {
+    color: $gray;
+    background-color: $green;
+  }
+}
