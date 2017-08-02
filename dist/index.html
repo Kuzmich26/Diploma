@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="AmicoMultipage" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="CSS/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="JS/core.js"></script>
+
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5 col-sm-5  col-md-1  col-lg-1"><img class="img-responsive img_head" src="IMG/img_05.jpg" alt="АМИКО"></div>
+        <div class="col-xs-7 col-sm-7  col-md-5  col-lg-5">
+          <h1 class="fittext text-center">Автоматика. Измерение. Контроль.</h1></div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h1 class="fittext text-center">info@amico.ua</h1></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h1 class="fittext text-center">+380(512) 37-78-39 <br>+380(512) 37-78-11</h1></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#!home"><img class="img_head" src="IMG/Brand.jpg" alt="АМИКО"></a>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#!about">О компании<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#!services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Товары и услуги<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">СУДА, СУДОСТРОЕНИЕ И СУДОРЕМОНТ</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">НЕФТЕГАЗОВАЯ ПРОМЫШЛЕННОСТЬ</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">ПИЩЕВАЯ ПРОМЫШЛЕННОСТЬ</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">ХИМИЧЕСКАЯ ПРОМЫШЛЕННОСТЬ</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">ЭНЕРГЕТИКА</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">СВЯЗЬ</a></li>
+            </ul>
+          </li>
+          <li><a href="#!media">Медиа Центр</a></li>
+          <li><a href="#!news">Новости</a></li>
+          <li><a href="#!contact">Контакты</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+<div ng-view=""></div>
+<script src="JS/custom.js"></script>
+</body>
+
+</script>
+</html>
