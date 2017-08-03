@@ -1,0 +1,17 @@
+@mixin togleVisability {
+  img{
+    display: block;
+  }
+  div{
+    display: none;
+  }
+  &:hover,&:focus {
+        img{
+          display: none;
+        }
+        div{
+          display: block;
+        }
+         transition-duration: 5s;
+   }
+}

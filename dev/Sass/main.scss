@@ -1,46 +1,66 @@
 @import "core";
 
-.ad-moto{
-      color: $green;
-      font-size: 1.2rem;
-      margin-bottom: 10rem;
-  }
+.ad-moto {
+  color: $green;
+  font-size: 1.2rem;
+  margin-bottom: 10rem;
+}
 
 .firstImpr {
   background: url("../img/BG.jpg") no-repeat center center;
   background-size: cover;
 }
-.job{
+
+.job {
   color: $green;
   padding-top: 50px;
-  p{
-  font-size: 1.2rem;
- }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
-.moto{
+
+.moto {
   color: $gray;
-line-height: 1.4;
-    margin-top: 5.1rem;
-margin-bottom: 6.1rem;
-
+  line-height: 1.4;
+  margin-top: 5.1rem;
+  margin-bottom: 6.1rem;
 }
-.first-action{
+
+.first-action {
   padding-top: 10.1rem;
-  padding-bottom: 14.1rem;
+  padding-bottom: 4.1rem;
   margin: 0 auto;
   text-align: center;
 }
-.services{
 
-}
-.learnMore{
+.services {}
+
+.learnMore {
   margin: 0 auto;
   text-align: center;
 }
+
 .aboutme {
   background: $gray no-repeat center center;
   background-size: cover;
-  img{
+
+  img {
     margin: 0 auto;
+  }
+}
+
+.mywork {
+  img {
+    margin: 0 auto;
+  }
+}
+
+.first {
+  @include togleVisability;
+  div {
+    padding: 4.8rem 0;
+    background: $yellow;
+    color: $gray
   }
 }

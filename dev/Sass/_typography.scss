@@ -61,10 +61,10 @@ a {
   font-family: "Open Sans";
   font-size: 1.8rem;
   color: $green;
-  text-decoration: underline;
+  //text-decoration: underline;
 
   &:hover,&:focus {
-    text-decoration: none;
+    text-decoration: underline;
     color: $green;
     }
 }
