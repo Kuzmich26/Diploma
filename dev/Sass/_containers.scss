@@ -1,0 +1,22 @@
+.box{
+  //max-width: $mainContainer;
+  padding-left: $containerHorIndentMobile;
+  padding-right: $containerHorIndentMobile;
+  padding-top: $containerVerIndentMobile;
+  @media (min-width: $screen-lg){
+ padding-left: $containerHorIndent;
+ padding-right: $containerHorIndent;
+ padding-top: $containerVerIndent;
+ padding-bottom:  $containerVerIndent;
+ margin: 0 auto;}
+  h2{
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+  }
+  h3{
+    margin: 3.6rem 0;
+  }
+}
+.firstImpr{
+  padding-top: 0;
+}

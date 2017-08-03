@@ -51,11 +51,17 @@ q{
     size: 1.6rem;
   }
 }
+.bold{
+  font-weight: 700;
+}
+.italic{
+  font-style: italic;
+}
 a {
   font-family: "Open Sans";
   font-size: 1.8rem;
   color: $green;
-  //text-decoration: underline;
+  text-decoration: underline;
 
   &:hover,&:focus {
     text-decoration: none;
@@ -69,10 +75,7 @@ a {
       background-color: transparent;
     }
 .logo{
-  font: {
-    size: 2.4rem;
-    weight:bold;
-  }
+  font-size: 2.4rem;
 }
 .navbar{
   a{

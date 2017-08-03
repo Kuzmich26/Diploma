@@ -1,15 +1,14 @@
 @import "core";
-.box{
-  max-width: $mainContainer;
-  padding-left: $containerHorIndent;
-  padding-right: $containerHorIndent;
-  margin: 0 auto;
-}
+
+.ad-moto{
+      color: $green;
+      font-size: 1.2rem;
+      margin-bottom: 10rem;
+  }
+
 .firstImpr {
   background: url("../img/BG.jpg") no-repeat center center;
   background-size: cover;
-
-
 }
 .job{
   color: $green;
@@ -32,20 +31,16 @@ margin-bottom: 6.1rem;
   text-align: center;
 }
 .services{
-  h2{
-    margin-top: 10rem;
-    margin-bottom: 3.4rem;
-  }
-  h3{
-    margin: 3.6rem 0;
-  }
-  .ad-moto{
-      color: $green;
-      font-size: 1.2rem;
-      margin-bottom: 10rem;
-  }
+
 }
 .learnMore{
   margin: 0 auto;
   text-align: center;
+}
+.aboutme {
+  background: $gray no-repeat center center;
+  background-size: cover;
+  img{
+    margin: 0 auto;
+  }
 }
