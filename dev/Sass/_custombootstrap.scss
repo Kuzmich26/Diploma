@@ -12,3 +12,9 @@
     background-color: #fff;
     border:0;
 }
+.item blockquote q:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}

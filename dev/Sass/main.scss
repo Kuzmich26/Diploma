@@ -1,10 +1,6 @@
 @import "core";
 
-.ad-moto {
-  color: $green;
-  font-size: 1.2rem;
-  margin-bottom: 10rem;
-}
+
 
 .firstImpr {
   background: url("../img/BG.jpg") no-repeat center center;
@@ -63,4 +59,8 @@
     background: $yellow;
     color: $gray
   }
+}
+.feedback{
+  background: $gray no-repeat center center;
+  background-size: cover;
 }
