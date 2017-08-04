@@ -35,3 +35,23 @@
     background-color: $green;
   }
 }
+.yellowButton{
+  font-size: 1.4rem;
+  color: $gray;
+  background-color: $yellow;
+  padding: 1.5rem 3rem;
+  border: 2px solid $yellow;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 6rem;
+  margin-top: 5rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover,&:focus {
+    color: $dark;
+    background-color: $green;
+  }
+}
