@@ -1,10 +1,17 @@
 @import "core";
-
+body{
+  max-width: 140rem;
+  margin: 0 auto;
+}
 
 
 .firstImpr {
   background: url("../img/BG.jpg") no-repeat center center;
   background-size: cover;
+  opacity: 0.2;
+  left:auto;
+  right: auto;
+
 }
 
 .job {
@@ -32,10 +39,7 @@
 
 .services {}
 
-.learnMore {
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .aboutme {
   background: $gray no-repeat center center;
@@ -66,5 +70,32 @@
 }
 .propert_spcials{
   background: $dark;
-  color: $darkTint
+  color: $darkTint;
+}
+
+.contact{
+  position: absolute;
+padding-bottom: 8rem;
+  top:0;
+    background-color: $dark;
+    color: #fff;
+    opacity: 0.8;
+    .container{
+      opacity: 1;
+    }
+    .shade{
+      color: $grayShade;
+    }
+  .head{
+    margin-bottom: 5rem;
+
+  }
+  .close{
+    color: $gray;
+  }
+  textarea{
+    min-width: 45.8rem;
+    min-height: 19rem;
+    border-radius: 0.4rem;
+  }
 }
