@@ -1,0 +1,31 @@
+.contact{
+  position: absolute;
+padding-bottom: 8rem;
+  top:0;
+    background-color: $dark;
+    color: #fff;
+    opacity: 0.8;
+    .container{
+      opacity: 1;
+    }
+    .shade{
+      color: $grayShade;
+    }
+  .head{
+    margin-bottom: 5rem;
+
+  }
+  .close{
+    color: $gray;
+  }
+  textarea{
+    @media(max-width: $screen-sm){
+      min-height: 100%;
+    }
+    width: 100%;
+    min-height: 19rem;
+    color: $textarea;
+    border-radius: 0.4rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
