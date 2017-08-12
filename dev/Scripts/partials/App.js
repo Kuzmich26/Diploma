@@ -40,4 +40,5 @@ myApp.config(function($routeProvider) {
       templateUrl: 'home.html',
       controller: 'HomeCtrl'
     });
+
 });

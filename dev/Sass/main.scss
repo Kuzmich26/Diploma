@@ -5,10 +5,10 @@ body{
 }
 
 
-.firstImpr {
+#firstImpr {
   background: url("../img/BG.jpg") no-repeat center center;
   background-size: cover;
-  opacity: 0.2;
+padding-top: 0;
   left:auto;
   right: auto;
 
@@ -37,11 +37,11 @@ body{
   text-align: center;
 }
 
-.services {}
+#services {}
 
 
 
-.aboutme {
+#aboutme {
   background: $gray no-repeat center center;
   background-size: cover;
 
@@ -50,7 +50,7 @@ body{
   }
 }
 
-.mywork {
+#mywork {
   img {
     margin: 0 auto;
   }
@@ -64,7 +64,7 @@ body{
     color: $gray
   }
 }
-.feedback{
+#feedback{
   background: $gray no-repeat center center;
   background-size: cover;
 }

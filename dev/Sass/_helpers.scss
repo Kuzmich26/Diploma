@@ -44,8 +44,9 @@
   display: flex;
   flex-direction: row;
 }
-.message{
-  height: 28rem;
-:-webkit-input-placeholder {vertical-align: top;}
-:-moz-placeholder          {vertical-align: top;}
+.blur{
+  opacity: 0.2;
+}
+.overlay{
+  opacity: 0.8;
 }

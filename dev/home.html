@@ -1,5 +1,5 @@
 
-<header class="firstImpr box ">
+<header id="firstImpr" class=" box ">
 
   <nav class="navbar ">
     <div class="container">
@@ -36,19 +36,20 @@
   </div>
   <h1 class="text-center moto">My Name Is Alexander.<br> I Create Beautiful Websites.</h1>
   <div class="first-action">
-    <a class="btn btn-default text-center" href="#" role="button">CONTACT ME</a>
+    <a class="btn btn-default text-center" href="#" onclick="contactMe()" role="button">CONTACT ME</a>
     <a class="btn btn-default text-center" href="#" role="button">LEARN MORE</a>
+
   </div>
 </header>
 
-<div class="box contact ">
+<div id="contact" class="box hidden">
   <div class="container">
     <div class="row head">
       <div class="col-md-3 col-md-offset-2">
           <h2>Contact Me</h2>
           </div>
           <div class="col-md-5">
-          <button type="button" class="close" data-dismiss="contact" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <button type="button" onclick="dismiss()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
 
 
@@ -83,7 +84,7 @@
 </div>
 </div>
 
-<div class="box services">
+<div id="services" class="box">
   <h2 class="text-center">My Services</h2>
   <p class="text-center ad-moto">ONCE YOU'VE TRY YOU'L NEVER BE DISAPOINTED</p>
   <div class="container">
@@ -127,7 +128,7 @@
     </div>
   </div>
 </div>
-<div class="box aboutme">
+<div id="aboutme" class="box ">
   <h2 class="text-center">About Me</h2>
   <p class="text-center ad-moto">SMART YOUNG LUCKY FELLOW</p>
   <div class="container">
@@ -165,7 +166,7 @@
 </div>
 </div>
 </div>
-<div class="box mywork">
+<div id="mywork" class="box">
   <h2 class="text-center">My Work</h2>
   <p class="text-center ad-moto">SUCCEDED PROJECTS THAT I AM PROUD TO INTRODUCE</p>
   <div class="container">
@@ -197,7 +198,7 @@
     </div>
   </div>
 </div>
-<div class="box feedback">
+<div id="feedback" class="box">
   <h2 class="text-center">What My Clients Say</h2>
   <p class="text-center ad-moto sm-bot-margin">SMALL FEEDBACKS ABOY MY WORK</p>
   <div class="container">
@@ -267,7 +268,7 @@
     </div>
   </div>
 </div>
-<div class="box intouch">
+<div id="intouch" class="box ">
   <h2 class="text-center">Get In Touch</h2>
   <p class="text-center ad-moto sm-bot-margin">LOOKING FOWARD FOR YOUR SOONEST REPLY</p>
   <div class="learnMore"><a href="#" class="btn btn-default yellowButton" role="button">LEARN MORE</a></div>

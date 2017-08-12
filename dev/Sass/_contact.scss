@@ -1,13 +1,11 @@
-.contact{
+#contact{
   position: absolute;
 padding-bottom: 8rem;
   top:0;
     background-color: $dark;
     color: #fff;
     opacity: 0.8;
-    .container{
-      opacity: 1;
-    }
+
     .shade{
       color: $grayShade;
     }
