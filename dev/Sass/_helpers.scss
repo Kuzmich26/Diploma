@@ -16,7 +16,7 @@
   }
 }
 .social{
-    @media(max-width: $screen-lg){
+    @media(min-width: $screen-lg){
     height: 6.5rem;
     width: 6.5rem;
     i{
