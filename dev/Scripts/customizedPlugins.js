@@ -1,7 +1,7 @@
 
 var first = document.getElementById("firstImpr");
 var second = document.getElementById("contact");
-alert(first);
+//alert(first);
 function contactMe(){
 
   first.classList.add("blur");
