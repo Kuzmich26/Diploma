@@ -5,31 +5,62 @@
   color: $green;
   font-size: 1.2rem;
   margin-bottom: 10rem;
+  @media(max-width: $screen-md){
+    margin: 2rem;
+  }
 }
 .sm-bot-margin{
   margin-bottom: 5.1rem;
+  @media(max-width: $screen-md){
+    margin: 1rem;
+  }
 }
 .social{
-  height: 6.5rem;
-  width: 6.5rem;
+    @media(max-width: $screen-lg){
+    height: 6.5rem;
+    width: 6.5rem;
+    i{
+      margin: 1.8rem 0;
+      font-size: 2.9rem;
+    }
+  };
+  @media(max-width: $screen-md){
+    height: 5rem;
+    width: 5rem;
+    i{
+      margin: 1.3rem 0;
+      font-size: 2.4rem;
+    }
+  };
+  @media(max-width: $screen-sm){
+    height: 4.1rem;
+    width: 4.1rem;
+    i{
+      margin: 1rem 0;
+      font-size: 2.1rem;
+    }
+  };
+
   color: $darkTint;
   text-align: center;
   border: 1px solid $darkTint;
   border-radius: 50%;
   margin-right: 3.1rem;
   i{
-    margin: 1.8rem 0;
-    font-size: 2.9rem;
+    text-align: center;
   }
   &:hover,&:focus {
     color: $gray;
-    border: 1px solid $gray;
+
   }
 }
 .copyright {
   color: $darkTint;
   font-size: 1.2rem;
   margin-bottom: 5.1rem;
+  @media(max-width: $screen-md){
+    margin: 1rem;
+  }
   display: block;
 }
 .learnMore {

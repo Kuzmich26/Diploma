@@ -1,6 +1,9 @@
 #contact{
   position: absolute;
 padding-bottom: 8rem;
+@media(max-width: $screen-md){
+  padding-bottom: 3rem;
+}
   top:0;
     background-color: $dark;
     color: #fff;

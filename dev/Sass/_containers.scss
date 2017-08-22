@@ -1,8 +1,8 @@
 .box{
-    padding-left: $containerHorIndentMobile;
+  padding-left: $containerHorIndentMobile;
   padding-right: $containerHorIndentMobile;
   padding-top: $containerVerIndentMobile;
-  @media (min-width: $screen-lg){
+  @media (min-width: $screen-md-min){
  padding-left: $containerHorIndent;
  padding-right: $containerHorIndent;
  padding-top: $containerVerIndent;

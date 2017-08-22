@@ -17,6 +17,5 @@
 /*jQuery v3.2.1*/
 //= ../../node_modules/jquery/dist/jquery.js
 
-
+/*Bootstrap v3.7*/
 //= ../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.js
-//= Fittext.js

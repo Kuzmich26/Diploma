@@ -26,6 +26,9 @@
   border-radius: 4rem;
   margin: 0 6rem;
   margin-top: 5rem;
+  @media (max-width: $screen-md){
+  margin-top: 1.5rem;
+  };
   display: inline-block;
   font-weight: bold;
   cursor: pointer;
@@ -45,6 +48,9 @@
   border-radius: 4rem;
   margin: 0 6rem;
   margin-top: 5rem;
+  @media (max-width: $screen-md){
+  margin-top: 1.5rem;
+  };
   display: inline-block;
   font-weight: bold;
   cursor: pointer;
